@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color:bisque;
+    border: black;
+    position: fixed;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+big{
+    color:darksalmon;
+    
+
+}
