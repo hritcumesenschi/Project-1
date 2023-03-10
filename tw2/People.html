@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--setarea background-ului-->
+    <style>
+      
+  div.polaroid {  /*stilizez astfel incat poza sa apara ca un polaroid*/
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  }
+
+  div.container {/*pe partea alba a polaroidului se afla titlul pozei cu styling-ul aferent*/
+  text-align: center;
+  padding: 10px 20px;
+  }
+    
+        body {
+          background-image: url('peopleback.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: 100% 100%;
+        }
+        
+        header {
+            color: rgba(15, 70, 87, 0.801);
+            margin: auto;
+            font-size: 300px;
+            font-family: "Courier New", monospace;
+            
+               }
+        img {
+            border: 5px solid rgb(39, 35, 35);
+            display: block;
+        }
+        p{
+            font-size:normal;  
+            font-family: "Courier New", monospace;
+        }
+        button {
+  background-color: #341853; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+a{
+            color: antiquewhite;
+        }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(46, 48, 40);
+   color: white;
+   text-align: center;
+}
+@media only all and (max-width: 1300px) {
+  .container{
+      width: 20%;
+  }
+
+}
+@media only all and (max-width: 1200px) {
+  .container{
+      width: 31%;
+  }
+
+}
+  @media only all and (max-width: 900px) {
+  .container{
+      width: 47%;
+  }
+
+}
+@media only all and (max-width: 600px) {
+  .container{
+      width: 100%;
+  }
+.container + .container {
+      border-left: none;
+      border-bottom: 1px solid #2f2f2f;
+}
+  header{
+      max-width: 320px;
+      font-size: 60px;
+      line-height: 54px;
+      overflow: hidden;
+  }
+
+}
+    </style>
+
+<!--butoanele in navigare-->
+<nav>
+    <button type = "button" onclick="location.href='home.html'">Home</button>
+    <button type = "button" onclick="location.href='Urban.html'">Urban</button>
+    <button type = "button" onclick="location.href='People.html'">People</button>
+    <button type = "button" onclick="location.href='Hobbies.html'">HOBBIES</button>
+   
+  
+  </nav>
+ <center>
+    <header>PEOPLE</header>
+  <div class="polaroid">
+    <img src="22.jpg" alt="VOICES, Poland" style="width:100%">
+    <div class="container">
+    <p>Spotted<br>France</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="23.jpg" alt="Hidden" style="width:100%">
+    <div class="container">
+    <p>Summer <br>Cannes</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="24.jpg" alt="VOICES, Poland" style="width:100%">
+    <div class="container">
+    <p>Martina <br>France</p>
+    </div>
+  </div>
+  
+  <div class="polaroid">
+    <img src="25.jpg" alt="Hidden" style="width:100%">
+    <div class="container">
+    <p>Portrait <br>Nice</p>
+    </div>
+  </div>
+  <div class="polaroid">
+    <img src="poza21.jpeg" alt="VOICES, Poland" style="width:100%">
+    <div class="container">
+    <p>Sunset<br>Cannes</p>
+    </div>
+  </div>
+  </div>
+</center>
+ 
+
+
+<div class="footer">
+    <p>Instagram : <a href="https://www.instagram.com/iasminahm/">@iasminahm</a></p>
+  </div>
+
+
+
+
+
+</html>
